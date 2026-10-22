@@ -10,13 +10,16 @@ I’m a Computer Science and Engineering student interested in web development, 
 
 ## Tech stack
 
-- **Web:** JavaScript, TypeScript, React, Vite, Tailwind CSS
+- **Languages:** HTML, CSS, JavaScript, TypeScript, C#, PHP, Java
+- **Frontend:** React.js, Next.js
+- **Backend:** Node.js, Express.js, .NET, ASP.NET
 - **Mobile:** React Native, Expo
-- **Backend & data:** Node.js, Express, MySQL
+- **Databases:** MongoDB, MySQL
+- **Tools:** Git
 
 ## Featured projects
 
-### [G.G Strategy](https://github.com/Getuar333/gg-strategy)
+### [G.G Strategy](https://gg-strategy.netlify.app/)
 
 A full-stack productivity and planning web application, with task, meeting, notification, and productivity-statistics workflows.
 

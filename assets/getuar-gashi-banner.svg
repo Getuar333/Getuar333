@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title description">
+  <title id="title">Getuar Gashi — Computer Science and Engineering</title>
+  <desc id="description">A dark navy technical banner with a blue-violet architectural line motif and the name Getuar Gashi.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.58" stop-color="#0b1730"/>
+      <stop offset="1" stop-color="#10122b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#42d6f4"/>
+      <stop offset="0.52" stop-color="#4b8dff"/>
+      <stop offset="1" stop-color="#a479ff"/>
+    </linearGradient>
+    <linearGradient id="wash" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#07111f" stop-opacity="0"/>
+      <stop offset="1" stop-color="#182046" stop-opacity="0.74"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="360" rx="18" fill="url(#background)"/>
+  <rect width="1200" height="360" rx="18" fill="url(#wash)"/>
+
+  <g fill="none" stroke="#7ea5df" stroke-opacity="0.09" stroke-width="1">
+    <path d="M0 48H1200M0 96H1200M0 144H1200M0 192H1200M0 240H1200M0 288H1200M0 336H1200"/>
+    <path d="M48 0V360M96 0V360M144 0V360M192 0V360M240 0V360M288 0V360M336 0V360M384 0V360M432 0V360M480 0V360M528 0V360M576 0V360M624 0V360M672 0V360M720 0V360M768 0V360M816 0V360M864 0V360M912 0V360M960 0V360M1008 0V360M1056 0V360M1104 0V360M1152 0V360"/>
+  </g>
+
+  <path d="M0 1H1200" stroke="url(#accent)" stroke-opacity="0.9" stroke-width="2"/>
+  <path d="M72 64V296" stroke="url(#accent)" stroke-width="3"/>
+
+  <g fill="none" stroke="url(#accent)" stroke-width="1.5">
+    <path d="M775 278 869 222 951 222 1034 153 1127 153"/>
+    <path d="M843 90 916 90 977 134 1055 134 1113 85"/>
+    <path d="M875 277V222M951 222V176M1034 153V207M916 90V143M1055 134V202"/>
+    <path d="M917 90 917 47 1038 47 1113 85 1172 85"/>
+    <path d="M775 278H848L900 310H1042"/>
+  </g>
+
+  <g fill="#0b1730" stroke="url(#accent)" stroke-width="2">
+    <circle cx="775" cy="278" r="5"/>
+    <circle cx="869" cy="222" r="5"/>
+    <circle cx="951" cy="222" r="5"/>
+    <circle cx="1034" cy="153" r="5"/>
+    <circle cx="1127" cy="153" r="5"/>
+    <circle cx="843" cy="90" r="5"/>
+    <circle cx="916" cy="90" r="5"/>
+    <circle cx="977" cy="134" r="5"/>
+    <circle cx="1055" cy="134" r="5"/>
+    <circle cx="1113" cy="85" r="5"/>
+  </g>
+
+  <g fill="none" stroke="#9db9ec" stroke-opacity="0.2" stroke-width="1">
+    <path d="M791 113H844V166H791z"/>
+    <path d="M1083 245H1136V298H1083z"/>
+    <path d="M1136 245h28v28h-28z"/>
+    <path d="M740 120h25v25h-25z"/>
+  </g>
+
+  <text x="108" y="91" fill="#8ea8cb" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="3.2">SOFTWARE / SYSTEMS / PRODUCT</text>
+  <text x="104" y="177" fill="#f1f5ff" font-family="Segoe UI, Arial, sans-serif" font-size="66" font-weight="600" letter-spacing="-2.4">Getuar Gashi</text>
+  <path d="M108 204H448" stroke="url(#accent)" stroke-width="2"/>
+  <text x="108" y="242" fill="#c3d1e8" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" letter-spacing="0.4">Computer Science &amp; Engineering student</text>
+  <text x="108" y="272" fill="#9aadd0" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="400" letter-spacing="0.8">Building web and mobile software with intent.</text>
+  <text x="108" y="322" fill="#7086aa" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="2.6">COMPUTER SCIENCE  /  SOFTWARE ENGINEERING</text>
+
+  <g fill="#b7c9e8" font-family="Segoe UI, Arial, sans-serif" font-size="10" letter-spacing="1.4">
+    <text x="810" y="329">01 — DESIGN</text>
+    <text x="948" y="329">02 — BUILD</text>
+    <text x="1072" y="329">03 — REFINE</text>
+  </g>
+</svg>

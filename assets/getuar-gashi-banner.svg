@@ -1,72 +1,73 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title description">
-  <title id="title">Getuar Gashi — Computer Science and Engineering</title>
-  <desc id="description">A dark navy technical banner with a blue-violet architectural line motif and the name Getuar Gashi.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title description">
+  <title id="title">Getuar Gashi — Software, shaped with intent</title>
+  <desc id="description">An original midnight-blue identity banner with an illuminated geometric G monogram, fine architectural construction lines, and Getuar Gashi's name.</desc>
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="field" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#07111f"/>
-      <stop offset="0.58" stop-color="#0b1730"/>
-      <stop offset="1" stop-color="#10122b"/>
+      <stop offset="0.62" stop-color="#0b1730"/>
+      <stop offset="1" stop-color="#15132d"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="1" x2="1" y2="0">
-      <stop offset="0" stop-color="#42d6f4"/>
-      <stop offset="0.52" stop-color="#4b8dff"/>
-      <stop offset="1" stop-color="#a479ff"/>
+    <linearGradient id="signal" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#44d9eb"/>
+      <stop offset="0.48" stop-color="#548cff"/>
+      <stop offset="1" stop-color="#b58cff"/>
     </linearGradient>
-    <linearGradient id="wash" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#07111f" stop-opacity="0"/>
-      <stop offset="1" stop-color="#182046" stop-opacity="0.74"/>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#132442" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#28204b" stop-opacity="0.72"/>
     </linearGradient>
+    <pattern id="micro-grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#a7c4ef" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
   </defs>
 
-  <rect width="1200" height="360" rx="18" fill="url(#background)"/>
-  <rect width="1200" height="360" rx="18" fill="url(#wash)"/>
+  <rect width="1200" height="400" rx="18" fill="url(#field)"/>
+  <rect width="1200" height="400" rx="18" fill="url(#micro-grid)"/>
+  <path d="M0 1H1200" stroke="url(#signal)" stroke-width="2"/>
+  <path d="M756 0V400" stroke="#8fb1e9" stroke-opacity="0.16"/>
 
-  <g fill="none" stroke="#7ea5df" stroke-opacity="0.09" stroke-width="1">
-    <path d="M0 48H1200M0 96H1200M0 144H1200M0 192H1200M0 240H1200M0 288H1200M0 336H1200"/>
-    <path d="M48 0V360M96 0V360M144 0V360M192 0V360M240 0V360M288 0V360M336 0V360M384 0V360M432 0V360M480 0V360M528 0V360M576 0V360M624 0V360M672 0V360M720 0V360M768 0V360M816 0V360M864 0V360M912 0V360M960 0V360M1008 0V360M1056 0V360M1104 0V360M1152 0V360"/>
+  <path d="M785 38H1160L1180 58V342L1160 362H785Z" fill="url(#panel)" stroke="#95b6e8" stroke-opacity="0.18"/>
+  <path d="M785 38H916M1051 38H1160L1180 58V118M1180 282V342L1160 362H1082" fill="none" stroke="url(#signal)" stroke-width="1.5"/>
+
+  <g fill="none" stroke="#8db1e6" stroke-opacity="0.14" stroke-width="1">
+    <path d="M801 74H1152M801 326H1152"/>
+    <path d="M826 53V347M1138 53V347"/>
+    <circle cx="982" cy="200" r="137"/>
+    <circle cx="982" cy="200" r="114" stroke-dasharray="2 8"/>
+    <path d="M982 55V82M982 318V345M837 200H864M1100 200H1127"/>
   </g>
 
-  <path d="M0 1H1200" stroke="url(#accent)" stroke-opacity="0.9" stroke-width="2"/>
-  <path d="M72 64V296" stroke="url(#accent)" stroke-width="3"/>
-
-  <g fill="none" stroke="url(#accent)" stroke-width="1.5">
-    <path d="M775 278 869 222 951 222 1034 153 1127 153"/>
-    <path d="M843 90 916 90 977 134 1055 134 1113 85"/>
-    <path d="M875 277V222M951 222V176M1034 153V207M916 90V143M1055 134V202"/>
-    <path d="M917 90 917 47 1038 47 1113 85 1172 85"/>
-    <path d="M775 278H848L900 310H1042"/>
+  <g fill="none" stroke="url(#signal)" stroke-width="2">
+    <path d="M1042 109C1025 98 1005 92 982 92C922 92 878 138 878 200C878 262 922 308 982 308C1038 308 1074 272 1074 217H991V248H1037C1027 269 1008 280 983 280C937 280 908 247 908 200C908 153 938 120 983 120C1010 120 1030 130 1044 149"/>
+    <path d="M1074 217H1120V242"/>
+    <path d="M878 200H845V225M1044 149L1070 132H1111"/>
+    <path d="M982 92V67M982 308V333"/>
   </g>
 
-  <g fill="#0b1730" stroke="url(#accent)" stroke-width="2">
-    <circle cx="775" cy="278" r="5"/>
-    <circle cx="869" cy="222" r="5"/>
-    <circle cx="951" cy="222" r="5"/>
-    <circle cx="1034" cy="153" r="5"/>
-    <circle cx="1127" cy="153" r="5"/>
-    <circle cx="843" cy="90" r="5"/>
-    <circle cx="916" cy="90" r="5"/>
-    <circle cx="977" cy="134" r="5"/>
-    <circle cx="1055" cy="134" r="5"/>
-    <circle cx="1113" cy="85" r="5"/>
+  <g fill="#0d1b33" stroke="url(#signal)" stroke-width="1.5">
+    <circle cx="845" cy="225" r="4"/>
+    <circle cx="1111" cy="132" r="4"/>
+    <circle cx="1120" cy="242" r="4"/>
+    <circle cx="982" cy="67" r="4"/>
+    <circle cx="982" cy="333" r="4"/>
   </g>
 
-  <g fill="none" stroke="#9db9ec" stroke-opacity="0.2" stroke-width="1">
-    <path d="M791 113H844V166H791z"/>
-    <path d="M1083 245H1136V298H1083z"/>
-    <path d="M1136 245h28v28h-28z"/>
-    <path d="M740 120h25v25h-25z"/>
-  </g>
+  <path d="M80 62V338" stroke="url(#signal)" stroke-width="2"/>
+  <text x="106" y="73" fill="#9bb0d0" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="3.2">GETUAR GASHI <tspan fill="#59739c">/</tspan> SOFTWARE ENGINEERING</text>
 
-  <text x="108" y="91" fill="#8ea8cb" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="3.2">SOFTWARE / SYSTEMS / PRODUCT</text>
-  <text x="104" y="177" fill="#f1f5ff" font-family="Segoe UI, Arial, sans-serif" font-size="66" font-weight="600" letter-spacing="-2.4">Getuar Gashi</text>
-  <path d="M108 204H448" stroke="url(#accent)" stroke-width="2"/>
-  <text x="108" y="242" fill="#c3d1e8" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" letter-spacing="0.4">Computer Science &amp; Engineering student</text>
-  <text x="108" y="272" fill="#9aadd0" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="400" letter-spacing="0.8">Building web and mobile software with intent.</text>
-  <text x="108" y="322" fill="#7086aa" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="600" letter-spacing="2.6">COMPUTER SCIENCE  /  SOFTWARE ENGINEERING</text>
+  <text x="101" y="190" fill="#f1f5ff" font-family="Segoe UI, Arial, sans-serif" font-size="76" font-weight="600" letter-spacing="-3.6">Getuar Gashi</text>
+  <path d="M106 217H329" stroke="url(#signal)" stroke-width="2"/>
+  <circle cx="337" cy="217" r="3" fill="#9d86ff"/>
 
-  <g fill="#b7c9e8" font-family="Segoe UI, Arial, sans-serif" font-size="10" letter-spacing="1.4">
-    <text x="810" y="329">01 — DESIGN</text>
-    <text x="948" y="329">02 — BUILD</text>
-    <text x="1072" y="329">03 — REFINE</text>
+  <text x="106" y="259" fill="#c6d5ec" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" letter-spacing="0.3">Computer Science &amp; Engineering student</text>
+  <text x="106" y="291" fill="#8fa6ca" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="400" letter-spacing="0.4">Web, mobile, and the systems that bring them together.</text>
+
+  <g fill="#7890b5" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="600" letter-spacing="2">
+    <text x="106" y="337">DESIGN WITH PURPOSE</text>
+    <text x="326" y="337" fill="#465e82">/</text>
+    <text x="346" y="337">BUILD WITH CARE</text>
+    <text x="520" y="337" fill="#465e82">/</text>
+    <text x="540" y="337">KEEP LEARNING</text>
   </g>
+  <text x="1151" y="342" fill="#7188ae" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="600" letter-spacing="1.4" text-anchor="end">GG—01</text>
 </svg>
